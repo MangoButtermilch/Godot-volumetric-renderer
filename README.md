@@ -5,7 +5,7 @@ Volumetric rendering approach for clouds or nebulae for Godot 4.0
 
 ## Setup
 - Drag the shader and resources into your Godot project folder
-- Create a cube and attach a shader material to it and assign the shader
+- Create a cube and attach a shader material to it and assign the shader (using a 10 x 10 x 10 in my case)
 - Done
 
 ## Rough shader explanation
@@ -27,6 +27,7 @@ The shader has two modes:
 - The shader is not completley finished and you may find some naming/performance etc. issues
 - The shader will cause sorting issues with objects inside/outside the volume since it's a spatial shader. Some people already told me to try and convert it into a fog shader but I didn't manage to that yet.
 - The render distance is currently pretty low. I've tried to increase the step size the further away from the camera we are but had no success yet
+- Changing the mesh that the shader is rendered on may cause some weird issues
 
 ### Maybe you can help me improve this shader :)
 
