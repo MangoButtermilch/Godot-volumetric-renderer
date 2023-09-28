@@ -51,7 +51,7 @@ You'll have these main defines in the shader
 
 
 ## About the 3D Textures
-The provided texture is made with my free tool to generate 3D textures. It was previously designed to create nebulae-like textures so it's maybe not suted for clouds.
+The provided texture is made with my free tool to generate 3D textures. It was previously designed to create nebulae-like textures so it's maybe not suited for clouds.
 
 You can find it here: https://acetix.itch.io/pseudo-volume-generator
 
