@@ -28,6 +28,8 @@ The shader has two modes:
 - The shader will cause sorting issues with objects inside/outside the volume since it's a spatial shader. Some people already told me to try and convert it into a fog shader but I didn't manage to that yet.
 - The render distance is currently pretty low. I've tried to increase the step size the further away from the camera we are but had no success yet
 
+### Maybe you can help me improve this shader :)
+
 ## Main Settings explained
 
 You'll have these main defines in the shader
