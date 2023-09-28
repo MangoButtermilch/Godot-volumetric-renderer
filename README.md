@@ -8,6 +8,9 @@ Volumetric rendering approach for clouds or nebulae for Godot 4.0
 - Create a cube and attach a shader material to it and assign the shader (using a 10 x 10 x 10 in my case)
 - Done
 
+## Note
+The shader has still some issues and is not "production ready". It's rather a starting point or inspiration for your own shader.
+
 ## Rough shader explanation
 This shader uses volumetric raymarching for rendering the clouds / nebulae.
 
